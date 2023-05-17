@@ -8,7 +8,7 @@ def start(update: Update, context):
 
 def weather(update: Update, context):
     location = " ".join(context.args)
-    api_key = "44c609327b46265ed208bd55c16c2ea9"
+    api_key = ""
 
     # Make API call to get weather information
     url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
@@ -31,7 +31,7 @@ def weather(update: Update, context):
 
 
 def main():
-    bot_token = "6014284136:AAE4pk1ex8vexQCwuDtbSP_581bJZ3zVpEM"
+    bot_token = ""
     updater = Updater(token=bot_token, use_context=True)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler("start", start))
