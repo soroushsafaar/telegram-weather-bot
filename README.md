@@ -1,4 +1,4 @@
-**Telegram Weather Bot**
+**Telegram Weather Bot** **(just for fun)**
 This Telegram Weather Bot is a Python-based bot that provides real-time weather information based on user queries. With this bot, users can easily get weather updates for any location worldwide right within their Telegram conversations.
 
 Features
